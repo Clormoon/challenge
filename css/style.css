@@ -1,0 +1,163 @@
+/*structure de la page*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+
+/*textes*/
+.fontTitre {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 350%;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 2px #848484;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 350%;
+    color: #3d3d3d;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    margin-top: 2%;
+    font-size: 240%;
+    margin-bottom: 2%;
+    color: #3d3d3d;
+    text-shadow: 2px 2px 2px #848484;
+}
+
+p {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 125%;
+}
+
+
+/*navbar*/
+
+.navbar{
+    background-color: #ebdfd3 !important;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logoNavbar{
+    width: 45px;
+    height: 45px;
+}
+
+.colorPinkTransition {
+    color: #000000;
+    transition: 0.5s;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.colorPinkTransition:hover {
+    color: #ffffff;
+}
+
+.textNav {
+    color: #000000;
+    transition: 0.5s;
+}
+
+.textNav:hover {
+    color: black;
+}
+
+#equipe {
+    scroll-margin-top: 55px;
+}
+
+/* Team */
+
+.pdp {
+    margin-left: 50px;
+    width: 75% !important;
+    height: 75% !important;
+}
+
+.centerText {
+    text-align: center;
+}
+
+
+/*contacts*/
+
+.contacts {
+    padding-bottom: 5%;
+}
+
+.place-video {
+    top: 50rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.resume {
+    font-size: 125% !important;
+    font-weight: bold !important;
+}
+
+.button{
+    cursor: pointer;
+    outline: 0;
+    color: #AAA;
+  
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .green{
+    color: green;
+  }
+  
+  .red{
+    color: red;
+  }
+
+
+  .cardContainer,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 1rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
