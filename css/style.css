@@ -216,5 +216,11 @@ p {
 }
 
 .patch__bg{
-    background-color: #e265bd;
+    background-color: #e591cc;
 }
+
+.position{
+    margin-left: 150px;
+}
+
+/* Media */
