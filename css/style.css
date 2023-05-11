@@ -1,3 +1,4 @@
+
 /*structure de la page*/
 html,
 body {
@@ -10,7 +11,7 @@ body {
 
 /*textes*/
 .fontTitre {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif; /* ne pas oublier de mettre la police */
     font-family: 'Righteous', cursive;
 }
 
@@ -22,7 +23,7 @@ h1 {
     font-size: 350%;
     font-weight: bold;
     color: #000000;
-    text-shadow: 2px 2px 2px #848484;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 h2 {
@@ -40,10 +41,10 @@ h3 {
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
     margin-top: 2%;
-    font-size: 240%;
+    font-size: 250%;
     margin-bottom: 2%;
     color: #3d3d3d;
-    text-shadow: 2px 2px 2px #848484;
+    text-shadow: 2px 2px 2px #000;
 }
 
 p {
@@ -52,11 +53,16 @@ p {
     font-size: 125%;
 }
 
+.descriptifChallenge{
+    font-size: 150% !important;
+    font-family: url('../photoshop/1up/1up.ttf');
+}
+
 
 /*navbar*/
 
 .navbar{
-    background-color: #ebdfd3 !important;
+    background-color: #febfd2 !important;
 }
 
 .sticky {
@@ -95,8 +101,63 @@ p {
     scroll-margin-top: 55px;
 }
 
+.bannerImg{
+    width: 1900px !important;
+    height:500px;
+}
+
+
+.home__about{
+    padding: 60px 0;
+    margin: -30px 0 0 0;
+}
+
+.challengeImg{
+    width: 500px;
+    height: 400px;
+}
+.mobileImg{
+    width: 500px;
+    height: 400px;
+}
+.trailerImg{
+    width: 600px;
+    height: 200px;
+}
+.home__careers{
+    padding: 60px 0;
+    background-color: #febfd2 !important;
+}
+.home__careers--text{
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    font-family: 'Oswald' sans-serif;
+}
+.home__careers--title{
+    font-size: 16px;
+    color: #2b2434;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace
+}
+.home__careers--subtitle{
+    font-size: 32px;
+    color: 0;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0;
+}
+
+.colorCard{
+    margin-left: 250px;
+    background-color: #fa91b1 !important;
+}
 /* Team */
 
+.home__team{
+    padding: 60px 0;
+    background-color: #fa91b1 !important;
+}
 .pdp {
     margin-left: 50px;
     width: 75% !important;
